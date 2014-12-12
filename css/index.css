@@ -63,3 +63,9 @@ paper-tabs.nav::shadow #selectionBar {
 	float: left;
 	width: 50%;
 }
+
+.profile-picture img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
