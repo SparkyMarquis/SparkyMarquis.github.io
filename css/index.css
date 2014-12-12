@@ -1,12 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
-
 html {
 	position: relative;
 	min-height: 100%
-}
-
-* {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -73,7 +68,3 @@ paper-tabs.nav::shadow #selectionBar {
 	margin-left: auto;
 	margin-right: auto;
 }
-
-h1, h2, h3, h4, h5, p, a {
-	font-family: 'Roboto Slab', serif;
-}	
