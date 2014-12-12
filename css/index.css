@@ -47,7 +47,6 @@ paper-tabs.nav::shadow #selectionBar {
 #brand {
 	float: left;
 	width: 50%;
-	margin-left: 5px;
 }
 
 #brand img {
