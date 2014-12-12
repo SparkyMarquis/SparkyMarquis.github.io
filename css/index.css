@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+
+html {
+	position: relative;
+	min-height: 100%
+	font-family: 'Roboto Slab', serif;
+}
+body {
+	background-image: url("/img/bg.png");
+	color: lightblue;
+	margin: 0 0 100px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+#news {
+	float: right;
+	width: 50%;
+}
+
+#news ul, #news li {
+	list-style-type: none;
+
+}
+
+#news li {
+	float: right;
+}
+
+.card {
+	text-align: center;
+	box-sizing: content-box;
+	display: inline-block;
+}
+
+paper-tabs.nav paper-tab::shadow #ink {
+	color: lightblue;
+}
+
+paper-tabs.nav::shadow #selectionBar {
+	background-color: red;
+}
+
+#brand {
+	float: left;
+	width: 50%
+}
+
+#brand img {
+	object-fit: cover;
+	max-width: 80%
+}
+
+.bio {
+	float: right;
+	width: 50%;
+}
+
+.profile-picture {
+	float: left;
+	width: 50%;
+}
