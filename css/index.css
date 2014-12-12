@@ -3,8 +3,12 @@
 html {
 	position: relative;
 	min-height: 100%
+}
+
+* {
 	font-family: 'Roboto Slab', serif;
 }
+
 body {
 	background-image: url("/img/bg.png");
 	color: lightblue;
