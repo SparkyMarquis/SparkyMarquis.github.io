@@ -8,6 +8,11 @@ body {
 	background-image: url("/img/bg.png");
 	color: lightblue;
 	margin: 0 0 100px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	margin-left: 10px;
 }
 
 a:link, a:visited {
