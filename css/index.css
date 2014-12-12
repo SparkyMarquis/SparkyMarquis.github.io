@@ -73,3 +73,21 @@ paper-tabs.nav::shadow #selectionBar {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.damage {
+	float: left;
+	width: 50%;
+	height: 50%;
+}
+
+.fix {
+	float: right;
+	width: 50%;
+	height: 50%;
+}
+
+.gallery {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
