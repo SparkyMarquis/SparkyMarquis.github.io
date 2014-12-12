@@ -50,7 +50,7 @@ paper-tabs.nav::shadow #selectionBar {
 }
 
 #brand img {
-	display: inline-block;
+	display: block;
 	object-fit: cover;
 	max-width: 80%
 	margin-left: auto;
