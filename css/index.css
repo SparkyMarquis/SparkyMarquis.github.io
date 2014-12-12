@@ -22,16 +22,8 @@ a:link, a:visited {
 
 #news {
 	float: right;
-	width: 50%;
-}
-
-#news ul, #news li {
-	list-style-type: none;
-
-}
-
-#news li {
-	float: right;
+	width: 45%;
+	margin-right: 2%
 }
 
 .card {
@@ -51,6 +43,8 @@ paper-tabs.nav::shadow #selectionBar {
 #brand {
 	float: left;
 	width: 50%;
+	display: inline-block;
+	margin-left: 3%;
 }
 
 #brand img {
@@ -84,6 +78,12 @@ paper-tabs.nav::shadow #selectionBar {
 	float: right;
 	width: 50%;
 	height: 50%;
+}
+
+#damage, #fix {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .gallery {
