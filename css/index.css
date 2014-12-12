@@ -54,7 +54,8 @@ paper-tabs.nav::shadow #selectionBar {
 
 .bio {
 	float: right;
-	width: 50%;
+	width: 45%;
+	margin-right: 5%
 }
 
 .profile-picture {
