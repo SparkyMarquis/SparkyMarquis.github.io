@@ -52,7 +52,6 @@ paper-tabs.nav::shadow #selectionBar {
 #brand img {
 	object-fit: cover;
 	max-width: 80%
-	margin-left: 10px;
 }
 
 .bio {
