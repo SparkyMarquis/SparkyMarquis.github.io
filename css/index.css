@@ -2,6 +2,11 @@ html {
 	position: relative;
 	min-height: 100%
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
 }
 
 body {
