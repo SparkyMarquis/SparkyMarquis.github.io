@@ -1,8 +1,5 @@
 html {
-	position: relative;
-	min-height: 100%
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	box-sizing: border-box;
 }
 
 *, *:before, *:after {
@@ -10,9 +7,7 @@ html {
 }
 
 body {
-	background-image: url("/img/bg.png");
 	color: lightblue;
-	margin: 0 0 100px;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -35,14 +30,6 @@ a:link, a:visited {
 	text-align: center;
 	box-sizing: content-box;
 	display: inline-block;
-}
-
-paper-tabs.nav paper-tab::shadow #ink {
-	color: lightblue;
-}
-
-paper-tabs.nav::shadow #selectionBar {
-	background-color: red;
 }
 
 #brand {
@@ -74,16 +61,22 @@ paper-tabs.nav::shadow #selectionBar {
 	margin-right: auto;
 }
 
+.repairs-container {
+	width: 100%;
+	margin: auto;
+}
+
 .damage {
-	float: left;
+	display: inline;
 	width: 50%;
 	height: 50%;
 }
 
 .fix {
-	float: right;
+	display: inline;
 	width: 50%;
 	height: 50%;
+	align: left;
 }
 
 #damage, #fix {
@@ -96,4 +89,24 @@ paper-tabs.nav::shadow #selectionBar {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+core-scaffold::shadow core-drawer-panel core-header-panel {
+	background-image: url("/img/bg.png");
+}
+
+core-scaffold::shadow core-drawer-panel>div[vertical] {
+	background-image: url("/img/bg.png");
+}
+
+core-toolbar{
+	background: #000000;
+}
+
+core-scaffold{
+	background: #616161;
+}
+
+core-item.core-selected {
+	color: darkred;
 }

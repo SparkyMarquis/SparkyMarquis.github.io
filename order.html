@@ -1,31 +1,30 @@
 <!DOCTYPE HTML>
 <head>
 <script src="./bower_components/webcomponentsjs/webcomponents.min.js"></script>
-<link rel="stylesheet" type="text/css" href="./css/index.css">
 <title>Order info</title>
 <meta name="viewport" content="width-device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
 <link rel="import" href="./bower_components/core-header-panel/core-header-panel.html">
 <link rel="import" href="./bower_components/core-toolbar/core-toolbar.html">
-<link rel="import" href="./bower_components/paper-tabs/paper-tabs.html">
-<link rel="import" href="./bower_components/paper-item/paper-item.html">
+<link rel="import" href="./bower_components/core-scaffold/core-scaffold.html">
+<link rel="import" href="./bower_components/core-item/core-item.html">
+<link rel="import" href="./bower_components/core-menu/core-menu.html">
 <link rel="import" href="./bower_components/paper-shadow/paper-shadow.html">
-
+<link rel="stylesheet" type="text/css" href="./css/index.css"
 </head>
 
-<body class="core-narrow" unresolved fullbleed>
-<h1>Questions and Commissions</h1>
-<div class="nav">
-	<core-header-panel>
-	<core-toolbar>
-	<paper-tabs selected="info" noslide="" role="tablist" class="nav" id="nav">
-	<paper-tab name="index" auto flex center-center horizontal layout><a href="./index.html"><h3>Home</h3></a></paper-tab>
-	<paper-tab name="info" auto flex center-center horizontal layout><a href="./order.html"><h3>Orders and Contact</h3></a></paper-tab>
-	<paper-tab name="about" auto flex center-center horizontal layout><a href="./about.html"><h3>About the Artist</h3></a></paper-tab>
-	<paper-tab name="repair" auto flex center-center horizontal layout><a href="./repair.html"><h3>Card Repairs</h3></a></paper-tab>
-	</paper-tabs>
-	</core-toolbar>
-	</core-header-panel>
-</div>
+<body class="" unresolved fullbleed>
+ <core-scaffold>
+  <core-header-panel navigation flex>
+   <core-toolbar>Menu</core-toolbar>
+    <core-menu>
+     <core-item label="Main Gallery"><a href="./index.html" target="_self"></a></core-item>
+     <core-item label="Orders and Contact Information"><a href="./order.html" target="_self"></a></core-item>
+     <core-item label="About the Artist"><a href="./about.html" target="_self"></a></core-item>
+     <core-item label="Card Repairs"><a href="./repair.html" target="_self"></a></core-item>
+    </core-menu>
+   </core-header-panel>
+  <div tool>Order and Contact Information</div>
+  <div fit>
 
 <br></br>
 <br></br>
@@ -49,6 +48,8 @@
 	<h3><a href="http://facebook.com/SparkyMarquis" target="_blank">Like me on Facebook!</a></h3>
 	</paper-shadow>
 </div>
+</div>
+</core-scaffold>
 </body> 
 
 <footer>
