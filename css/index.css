@@ -37,6 +37,7 @@ a:link, a:visited {
 	width: 50%;
 	display: inline-block;
 	margin-left: 3%;
+	margin-top: 4%;
 }
 
 #brand img {
@@ -45,20 +46,21 @@ a:link, a:visited {
 }
 
 .bio {
-	float: right;
-	width: 45%;
-	margin-right: 5%
+	display: inline-block;
+	width: 65%;
+	margin-left: 5%
 }
 
 .profile-picture {
-	float: left;
+	margin-left: 5%;
 	width: 50%;
 }
 
 .profile-picture img {
-	display: block;
+	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
+	gidth: 80%;
 }
 
 .repairs-container {
@@ -81,8 +83,8 @@ a:link, a:visited {
 
 #damage, #fix {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
 .gallery {
