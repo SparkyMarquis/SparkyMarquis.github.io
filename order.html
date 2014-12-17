@@ -9,7 +9,18 @@
 <link rel="import" href="./bower_components/core-item/core-item.html">
 <link rel="import" href="./bower_components/core-menu/core-menu.html">
 <link rel="import" href="./bower_components/paper-shadow/paper-shadow.html">
-<link rel="stylesheet" type="text/css" href="./css/index.css"
+<link rel="stylesheet" type="text/css" href="./css/index.css">
+
+<style shim-shadowdom>
+core-scaffold core-drawer-panel core-header-panel {
+		background-image: url("/img/bg.png");
+}
+
+core-scaffold #main core-drawer-panel>div[vertical] {
+		background-image: url("img/bg.png");
+}
+</style>
+
 </head>
 
 <body class="" unresolved fullbleed>
