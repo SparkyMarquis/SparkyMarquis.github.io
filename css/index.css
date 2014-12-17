@@ -80,31 +80,6 @@ a:link, a:visited {
 	gidth: 80%;
 }
 
-.repairs-container {
-	width: 100%;
-	margin: auto;
-}
-
-.damage {
-	display: inline;
-	width: 50%;
-	height: 50%;
-}
-
-.fix {
-	display: inline;
-	width: 50%;
-	height: 50%;
-	align: left;
-}
-
-#damage, #fix {
-	display: inline;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .gallery {
 	width: 60%;
 	margin-left: auto;

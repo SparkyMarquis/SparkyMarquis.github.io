@@ -14,11 +14,11 @@
 
 <style shim-shadowdom>
 core-scaffold core-drawer-panel core-header-panel {
-		background-image: url("/img/bg.png");
+	background-image: url("/img/bg.png");
 }
 
 core-scaffold #main core-drawer-panel>div[vertical] {
-		background-image: url("img/bg.png");
+	background-image: url("img/bg.png");
 }
 </style>
 
@@ -38,26 +38,15 @@ core-scaffold #main core-drawer-panel>div[vertical] {
 <div tool>Card Repair & Restoration</div>
 <div fit>
 
-	<div class="repairs-container">
-		<div class="damage">
-			<h2>Damaged Card</h2>
-			<div class="fotorama" data-width="100%" data-minwidth="400" data-maxwidth="100%" data-minheight="300" data-maxheight="100%" data-nav="thumbs" data-loop="true" data-navwidth="50%" data-allowfullscreen="true" id="damage">
-				<img src="./img/repair/damage/img1.jpg">
-				<img src="./img/repair/damage/img2.jpg">	
-			</div>
-		</div>
-
-		<br></br>
-
-		<div class="fix">
-			<h2>Repaired Card</h2>
-			<div class="fotorama" data-width="100%" data-minwidth="400" data-maxwidth="100%" data-minheight="300" data-maxheight="100%" data-nav="thumbs" data-loop="true" data-navwidth="50%" data-allowefullscreen="true" id="fix">
-				<img src="./img/repair/fix/img1.jpg">
-				<img src="./img/repair/fix/img2.jpg">
-			</div>
+	<br></br>
+	<div class="gallery">
+		<div class="fotorama" data-height="84%" data-width="84%" data-nav="thumbs" data-loop="true" data-navwidth="50%" data-allowfullscreen="true">
+			<img src="./img/repair/damage/img1.jpg" data-caption="Before">
+			<img src="./img/repair/fix/img1.jpg" data-caption="After">
+			<img src="./img/repair/damage/img2.jpg" data-caption="Before">
+			<img src="./img/repair/fix/img2.jpg" data-caption="After">
 		</div>
 	</div>
-
 </div>
 </core-scaffold>
 </body>
