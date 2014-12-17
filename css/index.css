@@ -91,7 +91,7 @@ core-scaffold::shadow core-drawer-panel core-header-panel {
 }
 
 core-scaffold::shadow core-drawer-panel>div[vertical] {
-	background-image: url("/img/bg.png");
+	background-image: url("/img/menu-bg.png");
 }
 
 core-toolbar{
