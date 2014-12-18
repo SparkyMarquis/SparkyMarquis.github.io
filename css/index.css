@@ -77,12 +77,15 @@ a:link, a:visited {
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
-	gidth: 80%;
+	width: 80%;
 }
 
 .gallery {
 	width: 60%;
 	margin-left: auto;
+}
+
+#main-gallery {
 	margin-right: auto;
 }
 
