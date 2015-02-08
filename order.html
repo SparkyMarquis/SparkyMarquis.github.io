@@ -1,15 +1,20 @@
 <!DOCTYPE HTML>
 <head>
-<script src="./bower_components/webcomponentsjs/webcomponents.min.js"></script>
 <title>Order info</title>
+
+<script src="./bower_components/webcomponentsjs/webcomponents.min.js"></script>
+<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
 <link rel="import" href="./bower_components/core-header-panel/core-header-panel.html">
 <link rel="import" href="./bower_components/core-toolbar/core-toolbar.html">
 <link rel="import" href="./bower_components/core-scaffold/core-scaffold.html">
 <link rel="import" href="./bower_components/core-item/core-item.html">
 <link rel="import" href="./bower_components/core-menu/core-menu.html">
-<link rel="import" href="./bower_components/paper-shadow/paper-shadow.html">
 <link rel="stylesheet" type="text/css" href="./css/index.css">
+<script src="js/lightbox.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/lightbox.css">
 <link rel="stylesheet" type="text/css" href="./css/order.css">
 
 <style shim-shadowdom>
@@ -54,13 +59,13 @@ ga('send', 'pageview');
 	</div>
 	<div id="pricing">
 		<h2>Border Extensions: $30</h2>
-		<h4>See <a href="./img/gallery/erebos.jpg" target="_blank">Erebos</a> for a sample of this type of alter</h4>
+		<h4>See <a href="./img/gallery/erebos.jpg" data-lightbox="Erebos">Erebos</a> for a sample of this type of alter</h4>
 		<h2>Full Art: $40</h2>
-		<h4>See <a href="./img/gallery/omniscience.jpg" target="_blank">Omniscience</a> for a sample of this type of alter</h4>
+		<h4>See <a href="./img/gallery/omniscience.jpg" data-lightbox="Omniscience">Omniscience</a> for a sample of this type of alter</h4>
 		<h2>Planeswalkers: $35-$45<h2>
-		<h4> See <a href="./img/gallery/nissas.jpg" target="_blank">Nissa</a> and <a href="./img/gallery/nahiri.jpg" target="_blank">Nahiri</a> for examples</h4>
-		<h2>Conatact me for info about playmat commissions!</h2>
-		<h4>See <a href="./img/gallery/eevee-moka-playmat.png" target="_blank">this image</a> for a playmat I have painted!</h4>
+		<h4> See <a href="./img/gallery/nissas.jpg" data-lightbox="Nissa">Nissa</a> and <a href="./img/gallery/nahiri.jpg" data-lightbox="Nahiri">Nahiri</a> for examples</h4>
+		<h2>Contact me for info about playmat commissions!</h2>
+		<h4>See <a href="./img/gallery/eevee-moka-playmat.png" data-lightbox="Eevees and Moka Playmat">this image</a> for a playmat I have painted!</h4>
 	</div>
 	<br></br>
 	<div id="brand">
