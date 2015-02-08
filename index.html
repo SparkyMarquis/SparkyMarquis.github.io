@@ -6,12 +6,13 @@
 <script src="./bower_components/jquery/dist/jquery.min.js"></script>
 <script src="./js/fotorama.js"></script>
 <link rel="stylesheet" type="text/css" href="./css/fotorama.css">
+<script src="js/lightbox.min.js"></script>
+<link href="css/lightbox.css" rel="stylesheet" />
 <link rel="import" href="./bower_components/core-header-panel/core-header-panel.html">
 <link rel="import" href="./bower_components/core-toolbar/core-toolbar.html">
 <link rel="import" href="./bower_components/core-scaffold/core-scaffold.html">
 <link rel="import" href="./bower_components/core-item/core-item.html">
 <link rel="import" href="./bower_components/core-menu/core-menu.html">
-<link rel="import" href="bower_components/paper-lightbox/paper-lightbox.html">
 <link rel="stylesheet" type="text/css" href="./css/index.css">
 <link rel="stylesheet" type="text/css" href="./css/gallery.css">
 
@@ -48,35 +49,38 @@ ga('send', 'pageview');
 <div fit>
 	<br></br>
 
-	<div class="paper-lightbox" id="paper-lightbox">
-		<paper-lightbox>	
-			<img src="./img/gallery/venser.jpg" data-fullimage="./img/gallery/venser.jpg">
-			<img src="./img/gallery/dr-teeth.jpg" data-fullimage="./img/gallery/dr-teeth.jpg">
-			<img src="./img/gallery/snow-sol-ring.jpg" data-fullimage="./img/gallery/snow-sol-ring.jpg">
-			<img src="./img/gallery/aurelia.jpg" data-fullimage="./img/gallery/aurelia.jpg">
-			<img src="./img/gallery/deathrite.jpg" data-fullimage="./img/gallery/deathrite.jpg">
-			<img src="./img/gallery/erebos.jpg" data-fullimage="./img/gallery/erebos.jpg">
-			<img src="./img/gallery/darksteel-forge.jpg" data-fullimage="./img/gallery/darksteel-forge.jpg">
-			<img src="./img/gallery/dream-fracture.jpg" data-fullimage="./img/gallery/dream-fracture.jpg">
-			<img src="./img/gallery/wydwen.jpg" data-fullimage="./img/gallery/wydwen.jpg">
-			<img src="./img/gallery/gisela.jpg" data-fullimage="./img/gallery/gisela.jpg">
-			<img src="./img/gallery/glimpse-of-nature.jpg" data-fullimage="./img/gallery/glimpse-of-nature.jpg">
-			<img src="./img/gallery/phelddagrif.jpg" data-fullimage="./img/gallery/phelddagrif.jpg">
-			<img src="./img/gallery/gsz.jpg" data-fullimage="./img/gallery/gsz.jpg">
-			<img src="./img/gallery/heritage.jpg" data-fullimage="./img/gallery/heritage.jpg">
-			<img src="./img/gallery/hivelord.jpg" data-fullimage="./img/gallery/hivelord.jpg">
-			<img src="./img/gallery/krenko.jpg" data-fullimage="./img/gallery/krenko.jpg">
-			<img src="./img/gallery/nahiri.jpg" data-fullimage="./img/gallery/nahiri.jpg">
-			<img src="./img/gallery/skullkid.jpg" data-fullimage="./img/gallery/skullkid.jpg">
-			<img src="./img/gallery/omniscience.jpg" data-fullimage="./img/gallery/omniscience.jpg">
-			<img src="./img/gallery/orrery.jpg" data-fullimage="./img/gallery/orrery.jpg">
-			<img src="./img/gallery/purph.jpg" data-fullimage="./img/gallery/purph.jpg">
-			<img src="./img/gallery/prossh.jpg" data-fullimage="./img/gallery/prossh.jpg">
-			<img src="./img/gallery/gabo.jpg" data-fullimage="./img/gallery/gabo.jpg">
-			<img src="./img/gallery/monet-sol-ring.jpg" data-fullimage="./img/gallery/monet-sol-ring.jpg">
-			<img src="./img/gallery/symbiote.jpg" data-fullimage="./img/gallery/symbiote.jpg">
-			<img src="./img/gallery/thassa.jpg" data-fullimage="./img/gallery/thassa.jpg">
-		</paper-lightbox>
+	<div class="paper-lightbox" id="paper-lightbox">	
+		<a href="./img/gallery/venser.jpg" data-lightbox="Venser"><img src="./img/gallery/venser.jpg"></a>
+		<a href="./img/gallery/dr-teeth.jpg" data-lightbox="Dr. Teeth"><img src="./img/gallery/dr-teeth.jpg"></a>
+		<a href="./img/gallery/snow-sol-ring.jpg" data-lightbox="Snowy Sol Ring"><img src="./img/gallery/snow-sol-ring.jpg"></a>
+		<a href="./img/gallery/aurelia.jpg" data-lightbox="Aurelia"><img src="./img/gallery/aurelia.jpg"></a>
+		<a href="./img/gallery/deathrite.jpg" data-lightbox="Deathrite"><img src="./img/gallery/deathrite.jpg"></a>
+		<a href="./img/gallery/erebos.jpg" data-lightbox="Erebos"><img src="./img/gallery/erebos.jpg"></a>
+		<a href="./img/gallery/darksteel-forge.jpg" data-lightbox="Darksteel Forge"><img src="./img/gallery/darksteel-forge.jpg"></a>
+		<a href="./img/gallery/dream-fracture.jpg" data-lightbox="Dream Fracture"><img src="./img/gallery/dream-fracture.jpg"></a>
+		<a href="./img/gallery/wydwen.jpg" data-lightbox="Wydwen"><img src="./img/gallery/wydwen.jpg"></a>
+		<a href="./img/gallery/gisela.jpg" data-lightbox="Gisela"><img src="./img/gallery/gisela.jpg"></a>
+		<a href="./img/gallery/glimpse-of-nature.jpg" data-lightbox="Glimpse of Nature"><img src="./img/gallery/glimpse-of-nature.jpg"></a>
+		<a href="./img/gallery/phelddagrif.jpg" data-lightbox="Phelddagrif"><img src="./img/gallery/phelddagrif.jpg"></a>
+		<a href="./img/gallery/gsz.jpg" data-lightbox="Green Sun's Zenith"><img src="./img/gallery/gsz.jpg"></a>
+		<a href="./img/gallery/heritage.jpg" data-lightbox="Heritage Druid"><img src="./img/gallery/heritage.jpg"></a>
+		<a href="./img/gallery/hivelord.jpg" data-lightbox="Sliver Hivelord"><img src="./img/gallery/hivelord.jpg"></a>
+		<a href="./img/gallery/krenko.jpg" data-lightbox="Krenko"><img src="./img/gallery/krenko.jpg"></a>
+		<a href="./img/gallery/nahiri.jpg" data-lightbox="Nahiri"><img src="./img/gallery/nahiri.jpg"></a>
+		<a href="./img/gallery/skullkid.jpg" data-lightbox="Nekuzar"><img src="./img/gallery/skullkid.jpg"></a>
+		<a href="./img/gallery/omniscience.jpg" data-lightbox="Omniscience"><img src="./img/gallery/omniscience.jpg"></a>
+		<a href="./img/gallery/orrery.jpg" data-lightbox="Vedalken Orrery"><img src="./img/gallery/orrery.jpg"></a>
+		<a href="./img/gallery/purph.jpg" data-lightbox="Purpheros"><img src="./img/gallery/purph.jpg"></a>
+		<a href="./img/gallery/prossh.jpg" data-lightbox="Prossh"><img src="./img/gallery/prossh.jpg"></a>
+		<a href="./img/gallery/gabo.jpg" data-lightbox="Gabo Token"><img src="./img/gallery/gabo.jpg"></a>
+		<a href="./img/gallery/monet-sol-ring.jpg" data-lightbox="Starry Night Sol Ring"><img src="./img/gallery/monet-sol-ring.jpg"></a>
+		<a href="./img/gallery/symbiote.jpg" data-lightbox="Wirewood Symbiote"><img src="./img/gallery/symbiote.jpg"></a>
+		<a href="./img/gallery/thassa.jpg" data-lightbox="Thassa"><img src="./img/gallery/thassa.jpg"></a>
+		<a href="./img/gallery/eevee-moka-playmat.png" data-lightbox="Eevees and Moka"><img src="./img/gallery/eevee-moka-playmat.png"></a>
+		<a href="./img/gallery/titans.jpg" data-lightbox="Inferno Titans"><img src="./img/gallery/titans.jpg"></a>
+		<a href="./img/gallery/mountains.jpg" data-lightbox="Mountains"><img src="./img/gallery/mountains.jpg"></a>
+		<a href="./img/gallery/nixili.jpg" data-lightbox="Ob Nixilis"><img src="./img/gallery/nixili.jpg"></a>
+		<a href="./img/gallery/nissas.jpg" data-lightbox="Nissas"><img src="./img/gallery/nissas.jpg"></a>
 	</div>
 </div>
 </core-scaffold>
