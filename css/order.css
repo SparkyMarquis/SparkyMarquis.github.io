@@ -1,0 +1,26 @@
+#brand {
+	margin-left: 30%;
+}
+
+#brand img {
+	height: 15vw;
+	width: 26.25vw;
+}
+
+#contact-info {
+	float: left;
+	width: 46%;
+	margin-left: 3vw;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+#pricing {
+	float: right;
+	width: 46%;
+	text-align: right;
+	margin-right: 3vw;
+}

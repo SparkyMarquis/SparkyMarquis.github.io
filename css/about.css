@@ -1,0 +1,33 @@
+.content {
+	padding: 10px;
+	padding-bottom: 1%;
+}
+
+.bio {
+	display: inline-block;
+	width: 65%;
+	margin-left: 5%
+}
+
+.profile-picture {
+	margin-left: 5%;
+	width: 50%;
+}
+
+.profile-picture img {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.footer {
+	width: 100%;
+	white-space: nowrap;
+	font-size: .75vw;
+	max-width: 100%;
+	height: .5%;
+	position: absolute;
+	bottom: 0;
+	left:0;
+}

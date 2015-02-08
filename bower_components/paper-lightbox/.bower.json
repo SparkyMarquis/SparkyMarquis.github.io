@@ -1,0 +1,30 @@
+{
+  "name": "paper-lightbox",
+  "authors": [
+    "Faiz <malkanifaiz@gmail.com>"
+  ],
+  "description": "Lightbox Web Component",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.4",
+    "paper-icon-button": "Polymer/paper-icon-button#~0.5.4"
+  },
+  "homepage": "https://github.com/FaizMalkani/paper-lightbox",
+  "_release": "a314e5bdb0",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a314e5bdb08571e32559f9c2bd1777fb24585bf8"
+  },
+  "_source": "git://github.com/FaizMalkani/paper-lightbox.git",
+  "_target": "*",
+  "_originalSource": "paper-lightbox",
+  "_direct": true
+}
