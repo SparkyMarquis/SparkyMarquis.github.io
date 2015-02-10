@@ -1,5 +1,10 @@
-.gallery {
-	width: 70%;
-	margin-left: auto;
-	margin-top: 2vh;
+.repairs{
+	margin-left: 6vw;
+	margin-right: auto;
+}
+
+.repairs img {
+	height: 20%;
+	width: 20%;
+	margin-left: 2%;
 }

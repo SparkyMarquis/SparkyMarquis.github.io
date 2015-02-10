@@ -1,5 +1,6 @@
 html {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+	font-family: 'Gloria Hallelujah', cursive;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -11,7 +12,7 @@ html {
 
 body {
 	color: lightblue;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
 }
 
 core-scaffold::shadow core-drawer-panel core-header-panel {
