@@ -4,6 +4,7 @@ html {
 	margin: 0;
 	padding: 0;
 	border: 0;
+	line-height: 150%;
 }
 
 *, *:before, *:after {
