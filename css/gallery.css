@@ -8,3 +8,23 @@
 	width: 20%;
 	margin-left: 2%;
 }
+
+a:link {
+	text-decoration: none;
+	color: darkred;
+}
+
+a:visited {
+	text-decoration: none;
+	color: darkred;
+}
+
+a:hover {
+	text-decoration: none;
+	color: darkred;
+}
+
+a:active {
+	text-decoration: none;
+	color-darkred;
+}
