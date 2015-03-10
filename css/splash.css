@@ -1,0 +1,31 @@
+#panel {
+	text-align: center;
+	margin-left: 1vw;
+	float: left;
+	font-size: 1.5vw;
+	width: 18%;
+}
+
+img {
+	width: 60%;
+}
+
+a:link {
+	text-decoration: none;
+	color: lightblue;
+}
+
+a:visited {
+	text-decoration: none;
+	color: lightblue;
+}
+
+a:hover {
+	text-decoration: none;
+	color: lightblue;
+}
+
+a:active {
+	text-decoration: none;
+	color: lightblue;
+}
