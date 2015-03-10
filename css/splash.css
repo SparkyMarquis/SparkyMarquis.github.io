@@ -12,20 +12,20 @@ img {
 
 a:link {
 	text-decoration: none;
-	color: lightblue;
+	color: red;
 }
 
 a:visited {
 	text-decoration: none;
-	color: lightblue;
+	color: red;
 }
 
 a:hover {
 	text-decoration: none;
-	color: lightblue;
+	color: red;
 }
 
 a:active {
 	text-decoration: none;
-	color: lightblue;
+	color: red;
 }
